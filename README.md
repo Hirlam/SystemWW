@@ -1,7 +1,3 @@
-# SystemWW_2021spring
-
-
-
 # HARMONIE Virtual System Working Week
 
 At Home  ... - .... April  2021
