@@ -6,7 +6,7 @@ At Home  ... - .... April  2021
  
 The meeting will be hosted by Google: [link](https://meet.google.com/aem-dubz-ihj)
 
-Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)  
+Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
 
 ### Participants
 
