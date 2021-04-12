@@ -13,10 +13,10 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 | Name             | Institute  | ARR - DEP        |  Home       |
 | ---              | ---        | ---              | ---         |
 |Roel Stappers     | MET Norway | Monday - Friday  |Grubbenvorst |
-       
+|Daniel Santos     | DMI        | Monday - Friday  |Becerril     |       
 ## Lasts Videomeetings Notes 
 
-[Notes](https://hirlam.org/trac/wiki/Meetings/System/Video_Meetings/2020)  
+[Notes](https://hirlam.org/trac/wiki/Meetings/System/Video_Meetings/2022)  
 
 ##  Agenda 
 
@@ -25,6 +25,23 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 - CY48 phasing  
 - Revisit status of system priorities for 2021
 - AOB
+
+##  Priorities 2021 
+
+   1. Davaii and mitrailllette for Harmonie if is possible outside MF 
+   2. Bundling tool 
+   3. Common work space (gitlab, docs ...)
+   4. Cross families working weeks
+   5. Subhourly cycling based in perl or rewrite in python (resources ???)- '''Implementation in cy46'''
+
+##  General questions 
+
+- How to control the namelist settings more effectively?
+- Where and how to document model changes and spread the info ?
+- Improve code modularity (for scripts) and use of package managers. Julia used as proof of concept- 
+- Move to github, gitlab the OpenSource software and how to treat the private areas for proprietary software
+- pull request, feature codes, documentation and port to different code versions
+
 
 ### Monday  
 
