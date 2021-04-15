@@ -13,10 +13,11 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 | Name             | Institute  | ARR - DEP        |  Home       |
 | ---              | ---        | ---              | ---         |
 |Roel Stappers     | MET Norway | Monday - Friday  |Grubbenvorst |
-|Daniel Santos     | DMI        | Monday - Friday  |Becerril     |
-|Ulf Andrae        | SMHI       | Monday - Friday  |Norrköping   |
+|Daniel Santos     | DMI        | Monday - Friday  |Becerril     |
+|Ulf Andrae        | SMHI       | Monday - Friday  |Norrköping   |
 |Toon Moene        | KNMI       | Monday - Friday  |Maartensdijk |
-|Eoin Whelan       | METIE      | Monday - Friday  |Trim         |
+|Eoin Whelan       | METIE      | Monday - Friday  |Trim         |
+
 ## Lasts Videomeetings Notes 
 
 [Notes](https://hirlam.org/trac/wiki/Meetings/System/Video_Meetings/2022)  
