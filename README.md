@@ -13,7 +13,8 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 | Name             | Institute  | ARR - DEP        |  Home       |
 | ---              | ---        | ---              | ---         |
 |Roel Stappers     | MET Norway | Monday - Friday  |Grubbenvorst |
-|Daniel Santos     | DMI        | Monday - Friday  |Becerril     |       
+|Daniel Santos     | DMI        | Monday - Friday  |Becerril     |
+|Ulf Andrae        | SMHI       | Monday - Friday  |Norrköping   |
 ## Lasts Videomeetings Notes 
 
 [Notes](https://hirlam.org/trac/wiki/Meetings/System/Video_Meetings/2022)  
