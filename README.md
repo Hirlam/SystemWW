@@ -20,9 +20,25 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 
 ##  Agenda 
 
-- CY43 releases
-- CY46 pending issues
-- CY48 phasing  
+- CY43:
+      * Testing for tagging 43h2.2
+      * Review issues and Pending tasks
+      * Workflow in github
+      * Documentation
+- CY46:
+      * Status
+      * Pysurfex validation
+      * cmake 
+      * Sub-hourly cycling and scripting design
+- CY48:
+      * Status
+      * Pending branches
+      * Compilation in CCA and TEMS
+- ACCORD Convergence actions: 
+      * Questionaire
+      * GIT solution
+      * Bundle
+      * Workflow, docs, training.  
 - Revisit status of system priorities for 2021
 - AOB
 
