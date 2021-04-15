@@ -1,6 +1,6 @@
 # HARMONIE Virtual System Working Week
 
-At Home  ... - .... April  2021
+At home 19 - 23 April  2021
 
 ## Practical
  
@@ -32,7 +32,7 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 - CY46:
   - Status
   - Pysurfex validation
-  - CMake 
+  - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS
   - Sub-hourly cycling and scripting design
 - CY48:
   - Status
