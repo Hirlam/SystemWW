@@ -63,6 +63,9 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 - Move to GitHub, gitlab the OpenSource software and how to treat the private areas for proprietary software
 - pull request, feature codes, documentation and port to different code versions
 - limits of free solutions
+- Ideas for github actions that would be useful to run on each commit (e.g. unit tests).
+- Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale)
+- Should we keep the gridpp and titanlib forks?  
 
 
 ### Monday  
