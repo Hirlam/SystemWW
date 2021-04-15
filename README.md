@@ -16,6 +16,7 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 |Daniel Santos     | DMI        | Monday - Friday  |Becerril     |
 |Ulf Andrae        | SMHI       | Monday - Friday  |Norrköping   |
 |Toon Moene        | KNMI       | Monday - Friday  |Maartensdijk |
+|Eoin Whelan       | METIE      | Monday - Friday  |Trim         |
 ## Lasts Videomeetings Notes 
 
 [Notes](https://hirlam.org/trac/wiki/Meetings/System/Video_Meetings/2022)  
@@ -25,13 +26,13 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 - CY43:
   - Testing for tagging 43h2.2
   - Review issues and Pending tasks
-  - Workflow in github
+  - Workflow in GitHub (pull requests, user forks, ...)
   - Documentation
 - CY46:
   - Status
   - Pysurfex validation
-  - cmake 
-  -  Sub-hourly cycling and scripting design
+  - CMake 
+  - Sub-hourly cycling and scripting design
 - CY48:
   - Status
   - Pending branches
@@ -57,8 +58,9 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 - How to control the namelist settings more effectively?
 - Where and how to document model changes and spread the info ?
 - Improve code modularity (for scripts) and use of package managers. Julia used as proof of concept- 
-- Move to github, gitlab the OpenSource software and how to treat the private areas for proprietary software
+- Move to GitHub, gitlab the OpenSource software and how to treat the private areas for proprietary software
 - pull request, feature codes, documentation and port to different code versions
+- limits of free solutions
 
 
 ### Monday  
