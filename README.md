@@ -64,8 +64,8 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 - pull request, feature codes, documentation and port to different code versions
 - limits of free solutions
 - Ideas for github actions that would be useful to run on each commit (e.g. unit tests).
-- Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale)
-- Should we keep the gridpp and titanlib forks?  
+- Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale). Why are e.g. `SICE` and `POLYNOMES_ISBA_MF6` used in [43h2.1.target.1](   https://github.com/Hirlam/Harmonie/compare/harmonie-43h2.1.target.1) and [43h2.1.target.2](https://github.com/Hirlam/Harmonie/compare/harmonie-43h2.1.target.2) not the default in `develop`
+- Better to remove the gridpp and titanlib forks?  
 
 
 ### Monday  
