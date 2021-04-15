@@ -17,6 +17,7 @@ Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 |Ulf Andrae        | SMHI       | Monday - Friday  |Norrköping   |
 |Toon Moene        | KNMI       | Monday - Friday  |Maartensdijk |
 |Eoin Whelan       | METIE      | Monday - Friday  |Trim         |
+|Bert van Ulft     | KNMI       | Monday - Friday  |Utrecht      |
 
 ## Lasts Videomeetings Notes 
 
