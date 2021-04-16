@@ -1,27 +1,21 @@
 # HARMONIE Virtual System Working Week
 
-At home 19 - 23 April  2021
+ - Date: 19 - 23 April  2021
+ - [Google link](https://meet.google.com/aem-dubz-ihj)
+ - [Notes](https://hirlam.org/trac/wiki/Meetings/System/Video_Meetings/2022) from previous meeting  
+ - Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
 
-## Practical
- 
-The meeting will be hosted by Google: [link](https://meet.google.com/aem-dubz-ihj)
+## Participants
 
-Markdown format [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
+Name              | Institute  | ARR - DEP        |  Home       
+---               | ---        | ---              | ---         
+Roel Stappers     | MET Norway | Monday - Friday  | Grubbenvorst 
+Daniel Santos     | DMI        | Monday - Friday  | Becerril     
+Ulf Andrae        | SMHI       | Monday - Friday  | Norrköping   
+Toon Moene        | KNMI       | Monday - Friday  | Maartensdijk 
+Eoin Whelan       | METIE      | Monday - Friday  | Trim         
+Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht      
 
-### Participants
-
-| Name             | Institute  | ARR - DEP        |  Home       |
-| ---              | ---        | ---              | ---         |
-|Roel Stappers     | MET Norway | Monday - Friday  |Grubbenvorst |
-|Daniel Santos     | DMI        | Monday - Friday  |Becerril     |
-|Ulf Andrae        | SMHI       | Monday - Friday  |Norrköping   |
-|Toon Moene        | KNMI       | Monday - Friday  |Maartensdijk |
-|Eoin Whelan       | METIE      | Monday - Friday  |Trim         |
-|Bert van Ulft     | KNMI       | Monday - Friday  |Utrecht      |
-
-## Lasts Videomeetings Notes 
-
-[Notes](https://hirlam.org/trac/wiki/Meetings/System/Video_Meetings/2022)  
 
 ##  Agenda 
 
