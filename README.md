@@ -57,8 +57,8 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 - Move to GitHub, gitlab the OpenSource software and how to treat the private areas for proprietary software
 - pull request, feature codes, documentation and port to different code versions
 - limits of free solutions
-- Ideas for github actions that would be useful to run on each commit (e.g. unit tests).
-- Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale). Why are e.g. `SICE` and `POLYNOMES_ISBA_MF6` used in [43h2.1.target.1](   https://github.com/Hirlam/Harmonie/compare/harmonie-43h2.1.target.1) and [43h2.1.target.2](https://github.com/Hirlam/Harmonie/compare/harmonie-43h2.1.target.2) not the default in `develop`
+- Ideas for github actions that would be useful to run on each commit (e.g. unit tests)
+- Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale)
 - Better to remove the gridpp and titanlib forks?  
 - Add more [labels](https://github.com/Hirlam/Harmonie/issues/labels) (like `Data assimilation`, `IASI`) See [pull request](https://github.com/Hirlam/Harmonie/pulls?q=is%3Apr+is%3Aclosed) so in the future we get overviews of  commits/pull request relevant for specific Harmonie components.  
 
