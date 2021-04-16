@@ -60,7 +60,7 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 - Ideas for github actions that would be useful to run on each commit (e.g. unit tests).
 - Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale). Why are e.g. `SICE` and `POLYNOMES_ISBA_MF6` used in [43h2.1.target.1](   https://github.com/Hirlam/Harmonie/compare/harmonie-43h2.1.target.1) and [43h2.1.target.2](https://github.com/Hirlam/Harmonie/compare/harmonie-43h2.1.target.2) not the default in `develop`
 - Better to remove the gridpp and titanlib forks?  
-- Add more labels (like `Data assimilation`, `IASI`) See [pull request](https://github.com/Hirlam/Harmonie/pulls?q=is%3Apr+is%3Aclosed) so in the future we get overviews of  commits/pull request relevant for specific Harmonie components.  
+- Add more [labels](https://github.com/Hirlam/Harmonie/issues/labels) (like `Data assimilation`, `IASI`) See [pull request](https://github.com/Hirlam/Harmonie/pulls?q=is%3Apr+is%3Aclosed) so in the future we get overviews of  commits/pull request relevant for specific Harmonie components.  
 
 
 ### Monday  
