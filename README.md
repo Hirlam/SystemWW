@@ -66,7 +66,14 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
  ```@nanosoldier runbenchmarks(ALL, vs=":master")```
  
  Which runs the full benchmark (several hours).
-In a dream world we would have `@ecmwf runtestbed(all)` or e.g. for changes to Femars/festat `@ecmwf runtestbed("AROME_JB")`. Continuing dreaming we would also be able to trigger specific davaii test from the comments and get the results back as reply.    
+In a dream world we would have `@ecmwf runtestbed(all)` or e.g. for changes to Femars/festat `@ecmwf runtestbed("AROME_JB")`. Continuing dreaming we would also have `@mf rundavai(...)` to trigger specific davaii test from the comments and get the results back as reply.  
+
+More dreaming. A Harmonie user that has forked Harmonie and created a branch with changes for an experiment should be able to write 
+
+```@ecmwf harmonie start DTG=.... DTGEND=.....```
+```@mf harmonie start ........```
+
+In a comment to the commit that contains the code that he/she want to run on one of our HPCs
 
 </p></details>
 
