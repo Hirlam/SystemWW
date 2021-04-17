@@ -95,6 +95,8 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 
 ## Meeting notes and tasks progress 
 
+To discuss: An alternative to adding the progress below would be to create an issue for each task (in this SystemWW repo not the Harmonie repo) and keep track of the progress there in the comments (and close the issue when the task is finished)
+
 ### CY43
 
 
