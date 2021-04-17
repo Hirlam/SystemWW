@@ -57,19 +57,18 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 - Move to GitHub, gitlab the OpenSource software and how to treat the private areas for proprietary software
 - pull request, feature codes, documentation and port to different code versions
 - limits of free solutions (see [current usage](https://github.com/organizations/Hirlam/settings/billing))
-<details><summary>Ideas for github actions that would be useful to run on each commit (e.g. unit tests) </summary><p>
+- Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale)
+- Better to remove the gridpp and titanlib forks?  
+- Add more [labels](https://github.com/Hirlam/Harmonie/issues/labels) (like `Data assimilation`, `IASI`) See [pull request](https://github.com/Hirlam/Harmonie/pulls?q=is%3Apr+is%3Aclosed) so in the future we get overviews of  commits/pull request relevant for specific Harmonie components.  
+<details><summary>Ideas for github actions (click to expand) </summary><p>
  See e.g. https://github.com/JuliaLang/julia/pull/40453#issuecomment-819200844 where on a pull request that is expected to impact the performance they simply write in the comment section 
  
  ```@nanosoldier runbenchmarks(ALL, vs=":master")```
  
  Which runs the full benchmark (several hours).
-In a dream world we would have `@ecmwf runtestbed(all)` or e.g. for changes to Femars/festat `@ecmwf runtestbed("AROME_JB")`. Continuing dreaming we would have `@mf run_davaii("tladtest")` etc. or for changes to the build system, `@knmi checkbuilds(with=cmake)`, `@metie checkbuilds(with=makeup)`.  
+In a dream world we would have `@ecmwf runtestbed(all)` or e.g. for changes to Femars/festat `@ecmwf runtestbed("AROME_JB")`. Continuing dreaming we would also be able to trigger specific davaii test from the comments and get the results back as reply.    
 
 </p></details>
-
-- Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale)
-- Better to remove the gridpp and titanlib forks?  
-- Add more [labels](https://github.com/Hirlam/Harmonie/issues/labels) (like `Data assimilation`, `IASI`) See [pull request](https://github.com/Hirlam/Harmonie/pulls?q=is%3Apr+is%3Aclosed) so in the future we get overviews of  commits/pull request relevant for specific Harmonie components.  
 
 
 ### Monday  
