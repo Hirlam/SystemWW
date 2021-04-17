@@ -74,7 +74,9 @@ More dreaming. A Harmonie user that has forked Harmonie and created a branch wit
 
 ```@mf harmonie start ........```
 
-In a comment to the commit that contains the code that he/she want to run on one of our HPCs
+In a comment to the commit that contains the code that he/she want to run on one of our HPCs.
+
+Note the [self hosted runners](https://github.com/Hirlam/Harmonie/settings/actions/add-new-runner) require GLIBC 2.14 so at ECMWF we have to wait until after the move to bologna. Perhaps someone with access TEMS can give it a try 
 
 </p></details>
 
