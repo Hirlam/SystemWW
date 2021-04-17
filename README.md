@@ -57,7 +57,7 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 - Move to GitHub, gitlab the OpenSource software and how to treat the private areas for proprietary software
 - pull request, feature codes, documentation and port to different code versions
 - limits of free solutions (see [current usage](https://github.com/organizations/Hirlam/settings/billing))
-- <details><summary>Ideas for github actions that would be useful to run on each commit (e.g. unit tests) </summary><p>
+<details><summary>Ideas for github actions that would be useful to run on each commit (e.g. unit tests) </summary><p>
  See e.g. https://github.com/JuliaLang/julia/pull/40453#issuecomment-819200844 where on a pull request that is expected to impact the performance they simply write in the comment section 
  
  ```@nanosoldier runbenchmarks(ALL, vs=":master")```
