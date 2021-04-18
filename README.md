@@ -87,6 +87,8 @@ Note the [self hosted runners](https://github.com/Hirlam/Harmonie/settings/actio
 Better: instead of comments to commits use `workflow_dispatch` events
 [Example](https://github.com/Hirlam/SystemWW/actions/workflows/run_at_ecmwf.yml) and click the `run workflow` button.
 
+See this [test](https://github.com/roelstappers/test_workflow_dispatch/runs/2373265804?check_suite_focus=true) that has run the action on my laptop
+
 </p></details>
 
 
