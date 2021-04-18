@@ -11,8 +11,15 @@ on:
         description: 'End DTG'
         required: true
       BUILD:
-       required: true
-       default: yes
+        required: true
+        default: yes
+      DOMAIN:
+        type: array
+        items:
+          type: string
+          enum:
+              - METCOOP25D
+              - NETHERLANDS
 
 jobs:
   printInputs:
