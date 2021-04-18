@@ -13,14 +13,7 @@ on:
       BUILD:
         required: true
         default: yes
-      DOMAIN:
-        type: array
-        items:
-          type: string
-          enum:
-              - METCOOP25D
-              - NETHERLANDS
-
+        
 jobs:
   printInputs:
     runs-on: ubuntu-latest     # This should become a self hosted runner that gets trigger by the action
