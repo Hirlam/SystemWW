@@ -64,13 +64,19 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 
 Use `workflow_dispatch` events
 
-See [Example](https://github.com/Hirlam/SystemWW/actions/workflows/run_at_ecmwf.yml) and click the `run workflow` button which lets you enter `DTG` `DTEND`
+See the [Example](https://github.com/roelstappers/Harmonie/actions/workflows/run_at_ecmwf.yml) in my fork and click the `run workflow` button which lets you enter `DTG` `DTEND`
+
+The [action](https://github.com/roelstappers/Harmonie/blob/develop/.github/workflows/run_at_ecmwf.yml) will clone the selected branch and run Harmonie.
+The [job](https://github.com/roelstappers/Harmonie/runs/2375694919?check_suite_focus=true) of course fails on my laptop with
+
+```
+/home/roel/actions-runner/_work/Harmonie/Harmonie/config-sh/Harmonie: The following start-up files are missing:
+./Env_submit, ./Env_system, config-sh/hm_rev
+````
 
 A Harmonie user would fork Harmonie, create a branch with changes for his experiment and trigger the `run_at_ecmwf` action to run the experiment at ECMWF.
 
 Note the [self hosted runners](https://github.com/Hirlam/Harmonie/settings/actions/add-new-runner) require GLIBC 2.14 so at ECMWF we have to wait until after the move to bologna. Perhaps someone with access TEMS can give it a try.
-
-See [this](https://github.com/roelstappers/test_workflow_dispatch/runs/2373265804?check_suite_focus=true) test that has run the action on my laptop
 
 Need similar actions to run the testbed at ecmwf (with some option to run only selected configurations), run davaii at MF, run obsmon,epygram, harp
 
