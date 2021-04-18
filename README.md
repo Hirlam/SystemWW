@@ -61,33 +61,26 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 - Better to remove the gridpp and titanlib forks?  
 - Add more [labels](https://github.com/Hirlam/Harmonie/issues/labels) (like `Data assimilation`, `IASI`) See [pull request](https://github.com/Hirlam/Harmonie/pulls?q=is%3Apr+is%3Aclosed) so in the future we get overviews of  commits/pull request relevant for specific Harmonie components.  
 <details><summary>Ideas for github actions (click to expand) </summary><p>
- See e.g. https://github.com/JuliaLang/julia/pull/40453#issuecomment-819200844 where on a pull request that is expected to impact the performance they simply write in the comment section 
- 
- ```@nanosoldier runbenchmarks(ALL, vs=":master")```
- 
- Which runs the full benchmark (several hours).
-In a dream world we would have `@ecmwf runtestbed(all)` or e.g. for changes to Femars/festat `@ecmwf runtestbed("AROME_JB")`. Continuing dreaming we would also have `@mf rundavai(...)` to trigger specific davaii test from the comments and get the results back as reply.  
 
-More dreaming. A Harmonie user that has forked Harmonie and created a branch with changes for an experiment should be able to write 
+Use `workflow_dispatch` events
 
-```@ecmwf harmonie start DTG=.... DTGEND=.....```
+See [Example](https://github.com/Hirlam/SystemWW/actions/workflows/run_at_ecmwf.yml) and click the `run workflow` button which lets you enter `DTG` `DTEND`
 
-```@mf harmonie start ........```
-
-In a comment to the commit that contains the code that he/she want to run on one of our HPCs.
+A Harmonie user would fork Harmonie, create a branch with changes for his experiment and trigger the `run_at_ecmwf` action to run the experiment at ECMWF.
 
 Note the [self hosted runners](https://github.com/Hirlam/Harmonie/settings/actions/add-new-runner) require GLIBC 2.14 so at ECMWF we have to wait until after the move to bologna. Perhaps someone with access TEMS can give it a try.
 
-`@epygram plot ....` to create a plot in the comments
+See [this](https://github.com/roelstappers/test_workflow_dispatch/runs/2373265804?check_suite_focus=true) test that has run the action on my laptop
 
-`@harp scorecards .....`
+Need similar actions to run the testbed at ecmwf (with some option to run only selected configurations), run davaii at MF, run obsmon,epygram, harp
+
+
+Also see e.g. [this](https://github.com/JuliaLang/julia/pull/40453#issuecomment-819200844) where on a pull request that is expected to impact the performance in Julia they simply write in the comment section 
+
+
+ ```@nanosoldier runbenchmarks(ALL, vs=":master")```
  
-`@obsmon ... `
-
-Better: instead of comments to commits use `workflow_dispatch` events
-[Example](https://github.com/Hirlam/SystemWW/actions/workflows/run_at_ecmwf.yml) and click the `run workflow` button.
-
-See this [test](https://github.com/roelstappers/test_workflow_dispatch/runs/2373265804?check_suite_focus=true) that has run the action on my laptop
+ Which runs the full benchmark (several hours) and get a link to report back as a reply
 
 </p></details>
 
