@@ -1,0 +1,22 @@
+
+
+name: run at ECMWF
+on: 
+  workflow_dispatch:
+    inputs:
+      DTG:
+        description: 'Start DTG'     
+        required: true
+      DTGEND:
+        description: 'End DTG'
+        required: true
+      BUILD:
+       required: true
+       default: yes
+
+jobs:
+  printInputs:
+    runs-on: ubuntu-latest     # This should become a self hosted runner that gets trigger by the action
+    steps:
+    - run: |
+        echo "Running harmonie start DTG=${{ github.event.inputs.DTG }} DTGEND=${{ github.event.inputs.DTGEND }} BUILD=${{ github.event.inputs.BUILD }} "
