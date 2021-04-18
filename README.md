@@ -84,6 +84,9 @@ Note the [self hosted runners](https://github.com/Hirlam/Harmonie/settings/actio
  
 `@obsmon ... `
 
+Better: instead of comments to commits use `workflow_dispatch` events
+[Example](https://github.com/Hirlam/SystemWW/actions/workflows/run_at_ecmwf.yml) and click the `run workflow` button.
+
 </p></details>
 
 
