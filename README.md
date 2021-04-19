@@ -22,17 +22,19 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
 
 - CY43:
   - Testing for tagging 43h2.2
-     - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel __
+     - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel__
+     - MetCoOp has some verification test ICERAD. Link in 
  
   - Review issues and Pending tasks
      - Restrict ECCODES version to 2.18 to avoid some GRIB encoding problems algo we can not encode spectral components - __Ulf__
      - Ryad have some fixes for GRIB encoding with ECCODES and FullPos - __Olda__
      - ECMWF HPC and MARS retrievals are very slow
-     - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link])
+     - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link] (https://hirlam.org/trac/wiki/Harmonie_43h2/Validation_for_tagging_43h2.2)
   - Workflow in GitHub (pull requests, user forks, ...)
   - Documentation
 - CY46:
   - Status
+    - Testbed is broken. Test on default setup is ongoing. __Ulf__
   - Pysurfex validation
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS
   - Sub-hourly cycling and scripting design
