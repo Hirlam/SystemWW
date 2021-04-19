@@ -23,7 +23,7 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
 - CY43:
   - Testing for tagging 43h2.2
      - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel__
-     - MetCoOp has some verification test ICERAD. Link in (https://hirlam.org/trac/wiki/Harmonie_43h2/Validation_for_tagging_43h2.2) - __Ole__
+     - MetCoOp has some verification test ICERAD. Create a link in [validation for tagging](https://hirlam.org/trac/wiki/Harmonie_43h2/Validation_for_tagging_43h2.2) - __Ole__
   - Review issues and Pending tasks
      - Restrict ECCODES version to 2.18 to avoid some GRIB encoding problems algo we can not encode spectral components - __Ulf__
      - Ryad have some fixes for GRIB encoding with ECCODES and FullPos - __Olda__
@@ -56,7 +56,11 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
     - Hybrid: Start again the branch compilation - __Eoin, Daniel__ 
   - Compilation in CCA and TEMS - __Daniel Toon__
 - CLIMATE:
-  - 
+  - Pre generated climate fields for selected domains:
+    - Use testbed or %VAR% to pass ECFLOW variables to scripting  
+  - Out of bounds PGD [issue](https://github.com/Hirlam/Harmonie/issues/1)
+  - Problems in domains with a lot of sea and few inland points - __Colm Damiel Katya Patrick__
+    - Example from cyclones- __Daniel__ 
 - ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
