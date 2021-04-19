@@ -27,6 +27,7 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
   - Documentation
 - CY46:
   - Status
+    - Testbed is broken. Test on default setup is ongoing.
   - Pysurfex validation
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS
   - Sub-hourly cycling and scripting design
