@@ -14,7 +14,8 @@ Daniel Santos     | DMI        | Monday - Friday  | Becerril
 Ulf Andrae        | SMHI       | Monday - Friday  | Norrköping   
 Toon Moene        | KNMI       | Monday - Friday  | Maartensdijk 
 Eoin Whelan       | METIE      | Monday - Friday  | Trim         
-Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht      
+Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht 
+Ole Vignes        | MET Norway | Monday - Friday  | Oslo
 
 
 ##  Agenda 
