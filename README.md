@@ -22,12 +22,17 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
 
 - CY43:
   - Testing for tagging 43h2.2
+     - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel __
+ 
   - Review issues and Pending tasks
+     - Restrict ECCODES version to 2.18 to avoid some GRIB encoding problems algo we can not encode spectral components - __Ulf__
+     - Ryad have some fixes for GRIB encoding with ECCODES and FullPos - __Olda__
+     - ECMWF HPC and MARS retrievals are very slow
+     - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link])
   - Workflow in GitHub (pull requests, user forks, ...)
   - Documentation
 - CY46:
   - Status
-    - Testbed is broken. Test on default setup is ongoing.
   - Pysurfex validation
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS
   - Sub-hourly cycling and scripting design
@@ -102,13 +107,13 @@ Also see e.g. [this](https://github.com/JuliaLang/julia/pull/40453#issuecomment-
 
 10:30 - 11:00 Coffee Break
 
-11:00 - 12:00  Work
-
-12:00 - 12:30 Progreses report
-
+11:00 - 12:30  Work
+ 
 12:30 - 13:30 Launch break
 
-13:30 - ...  Work
+13:30 - 15:30  Work
+ 
+15:30 - 16:30 Progress report 
  
 ### Tuesday - Friday 
 
