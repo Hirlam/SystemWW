@@ -23,27 +23,40 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
 - CY43:
   - Testing for tagging 43h2.2
      - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel__
-     - MetCoOp has some verification test ICERAD. Link in 
- 
+     - MetCoOp has some verification test ICERAD. Link in (https://hirlam.org/trac/wiki/Harmonie_43h2/Validation_for_tagging_43h2.2) - __Ole__
   - Review issues and Pending tasks
      - Restrict ECCODES version to 2.18 to avoid some GRIB encoding problems algo we can not encode spectral components - __Ulf__
      - Ryad have some fixes for GRIB encoding with ECCODES and FullPos - __Olda__
      - ECMWF HPC and MARS retrievals are very slow
-     - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link] (https://hirlam.org/trac/wiki/Harmonie_43h2/Validation_for_tagging_43h2.2)
+     - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link] 
   - Workflow in GitHub (pull requests, user forks, ...)
   - Documentation
 - CY46:
   - Status
     - Testbed is broken. Test on default setup is ongoing. __Ulf__
+    - Fix the message sending from testbed and a establish a contingency testbed with less computational demands to use in case of slow performance on CCA
+    - Tag beta version when the testbed give us the right signal that everything is ok - __Daniel__
+    - Canari: Upper air fields are corrupted. Work around with the MF implementation. Olda confirmed they use only surface fields - __Trygve & Patrick__
   - Pysurfex validation
+    - Invite Trigve to check the status
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS
   - Sub-hourly cycling and scripting design
+    - Extend the current implemented solution waiting for a more common ACCORD plans
+    - Possible naming convection problems for final users should be taken into account - __Eoin__
+    - Mandtg works with minutes - __Ole__
     - [Draft implementation plan](https://docs.google.com/presentation/d/1xi2Y7gkFSD9EgqquXDqDprwC4LGhZx9bEDuQXhhX2MM/edit#slide=id.gce02854fd2_0_20)
+    - Backward compatibility ?? - __Bert__
+  - Compilation in TEMS- __Daniel & Eoin__
+    - Create and submit.tems to avoid placement problems reutilizing the ecgb-cca one.[issue]
 - CY48:
-  - Status
-  - Pending branches
-  - Compilation in CCA and TEMS
-    - Let's start with CY43 and CY46 (in that order) __Eoin__
+  - Status of Pending Branches:
+    - Bator: Minor fixes still needed - __Eoin__
+    - LOCND2: Test compilation of the branch, as it is,  inside MF and test with Davai. Plan for updating this branch for the new phisycs devs - __Bert, Niko, Alexandre__
+    - SPP: Should be introduced in CY48T2 in the 'old way' to reduce the differences between codes. A further outdate will be needed in CY49 pre-phasing or CY49T1 continous integration. In CY49 the ECMWF SPP version will be available. __Ulf__
+    - Hybrid: Start again the branch compilation - __Eoin, Daniel__ 
+  - Compilation in CCA and TEMS - __Daniel Toon__
+- CLIMATE:
+  - 
 - ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
