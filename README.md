@@ -43,6 +43,7 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
   - Status
   - Pending branches
   - Compilation in CCA and TEMS
+    - Let's start with CY43 and CY46 (in that order) __Eoin__
 - ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
