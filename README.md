@@ -30,6 +30,7 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
   - Pysurfex validation
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS
   - Sub-hourly cycling and scripting design
+    - [Draft implementation plan](https://docs.google.com/presentation/d/1xi2Y7gkFSD9EgqquXDqDprwC4LGhZx9bEDuQXhhX2MM/edit#slide=id.gce02854fd2_0_20)
 - CY48:
   - Status
   - Pending branches
