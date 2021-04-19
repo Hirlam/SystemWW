@@ -29,7 +29,8 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
      - Ryad have some fixes for GRIB encoding with ECCODES and FullPos - __Olda__
      - ECMWF HPC and MARS retrievals are very slow
      - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link] 
-  - Workflow in GitHub (pull requests, user forks, ...)
+  - Workflow in GitHub (pull requests, user forks, ...)  
+     - github action to submit jobs from github to HPCs - __Roel__
   - Documentation
 - CY46:
   - Status
@@ -39,7 +40,8 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
     - Canari: Upper air fields are corrupted. Work around with the MF implementation. Olda confirmed they use only surface fields - __Trygve & Patrick__
   - Pysurfex validation
     - Invite Trigve to check the status
-  - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS
+  - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS 
+    - Adapt CMake to be able to build OOPS binaries - __Yurii & Roel__
   - Sub-hourly cycling and scripting design
     - Extend the current implemented solution waiting for a more common ACCORD plans
     - Possible naming convection problems for final users should be taken into account - __Eoin__
