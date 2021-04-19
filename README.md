@@ -9,7 +9,7 @@
 
 Name              | Institute  | ARR - DEP        |  Home       
 ---               | ---        | ---              | ---         
-Roel Stappers     | MET Norway | Monday - Friday  | Grubbenvorst :wq
+Roel Stappers     | MET Norway | Monday - Friday  | Grubbenvorst
 Daniel Santos     | DMI        | Monday - Friday  | Becerril     
 Ulf Andrae        | SMHI       | Monday - Friday  | Norrköping   
 Toon Moene        | KNMI       | Monday - Friday  | Maartensdijk 
