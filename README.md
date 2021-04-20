@@ -40,6 +40,8 @@ For historical or coupling files it will become important for large resolutions 
     - Fix the message sending from testbed and a establish a contingency testbed with less computational demands to use in case of slow performance on CCA
     - Tag beta version when the testbed give us the right signal that everything is ok - __Daniel__
     - Canari: Upper air fields are corrupted. Work around with the MF implementation. Olda confirmed they use only surface fields - __Trygve & Patrick__
+  - Fixing and closing Cycle 46 tickets open on hirlam.org
+    - __Toon__
   - Pysurfex validation
     - Invite Trigve to check the status
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS 
