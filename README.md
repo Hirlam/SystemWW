@@ -25,8 +25,9 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
      - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel__
      - MetCoOp has some verification test ICERAD. Create a link in [validation for tagging](https://hirlam.org/trac/wiki/Harmonie_43h2/Validation_for_tagging_43h2.2) - __Ole__
   - Review issues and Pending tasks
-     - Restrict ECCODES version to 2.18 to avoid some GRIB encoding problems algo we can not encode spectral components - __Ulf__
-     - Ryad have some fixes for GRIB encoding with ECCODES and FullPos - __Olda__
+     - Restrict ECCODES version to 2.18.0 to avoid some GRIB encoding problems although we can not encode spectral components. For this 2.21.0 is required. Ryad writes about GRIB output:
+     >If you wish to produce GRIB2 files and not FA files directly out of Fullpos for backend post-processing, then you must be aware or the keys LEXTERN, CMODEL, NIDCEN and NFPGRIB, and then these mods and library are important. This is what we do in Meteo-France for operations since cycle 43t2.
+For historical or coupling files it will become important for large resolutions or dimensions that GRIB1 can't support (but I don't know the limits). In Météo-France we shall use this GRIB2 encoding in LAM historical and coupling FA files in cycle 46t1 to be ready for the future, though it is not yet necessary for our operational resolutions. - __Ulf__
      - ECMWF HPC and MARS retrievals are very slow
      - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link] 
   - Workflow in GitHub (pull requests, user forks, ...)  
