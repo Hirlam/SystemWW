@@ -51,7 +51,9 @@ For historical or coupling files it will become important for large resolutions 
     - [Draft implementation plan](https://docs.google.com/presentation/d/1xi2Y7gkFSD9EgqquXDqDprwC4LGhZx9bEDuQXhhX2MM/edit#slide=id.gce02854fd2_0_20)
     - Backward compatibility ?? - __Bert__
   - Compilation in TEMS- __Daniel & Eoin__
-    - Create and submit.tems to avoid placement problems reutilizing the ecgb-cca one.[issue]
+    - Create and submit.tems to avoid placement problems reutilizing the ecgb-cca one.
+    - [#2](https://github.com/Hirlam/SystemWW/issues/2)
+    - Slack channel #ww2021-tems-installation
 - CY48:
   - Status of Pending Branches:
     - Bator: Minor fixes still needed - __Eoin__
