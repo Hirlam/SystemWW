@@ -54,7 +54,7 @@ For historical or coupling files it will become important for large resolutions 
     - Backward compatibility ?? - __Bert__
   - Compilation in TEMS- __Daniel & Eoin__
     - Create and submit.tems to avoid placement problems reutilizing the ecgb-cca one.
-    - [#2](https://github.com/Hirlam/SystemWW/issues/2)
+    - Issue[#2](https://github.com/Hirlam/SystemWW/issues/2)
     - Slack channel #ww2021-tems-installation
 - CY48:
   - Status of Pending Branches:
@@ -67,8 +67,10 @@ For historical or coupling files it will become important for large resolutions 
   - Pre generated climate fields for selected domains:
     - Use testbed or %VAR% to pass ECFLOW variables to scripting  
   - Out of bounds PGD [issue](https://github.com/Hirlam/Harmonie/issues/1)
-  - Problems in domains with a lot of sea and few inland points - __Colm Damiel Katya Patrick__
+  - Problems in domains with a lot of sea and few inland points - __Colm Daniel Katya Patrick__
     - Example from cyclones- __Daniel__ 
+- ECMWF teleport connection and ecFlow_ui
+   -
 - ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
@@ -143,19 +145,43 @@ Also see e.g. [this](https://github.com/JuliaLang/julia/pull/40453#issuecomment-
  
 15:30 - 16:30 Progress report 
  
-### Tuesday - Friday 
+### Tuesday 
 
-9:00 - 10:00 Previous day wrap-up video-meeting
+9:30 - 10:30  HIRLAM GitHub workflow 
+10:30 - 11:30 Previous day wrap-up video-meeting
 
 10:00 - 10:30 Coffee Break
 
 10:30 - 12:00 Work
 
-12:00 - 12:30 Progress report
+12:30 - 13:30 Launch break
+
+13:30 - ... Work
+
+### Wednesday
+
+10:00 - 11:30 Previous day wrap-up video-meeting
+
+10:00 - 10:30 Coffee Break
+
+10:30 - 12:00 Work
 
 12:30 - 13:30 Launch break
 
 13:30 - ... Work
+
+### Thursday - Friday
+
+9:30 - 11:30 Previous day wrap-up video-meeting
+
+10:00 - 10:30 Coffee Break
+
+10:30 - 12:00 Work
+
+12:30 - 13:30 Launch break
+
+13:30 - ... Work
+
 
 ## Meeting notes and tasks progress 
 
