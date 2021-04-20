@@ -70,7 +70,7 @@ For historical or coupling files it will become important for large resolutions 
   - Problems in domains with a lot of sea and few inland points - __Colm Daniel Katya Patrick__
     - Example from cyclones- __Daniel__ 
 - ECMWF teleport connection and ecFlow_ui
-   -
+   - Some instructions added to the wiki: [https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/ECMWF_teleport](https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/ECMWF_teleport)
 - ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
