@@ -31,7 +31,8 @@ For historical or coupling files it will become important for large resolutions 
      - ECMWF HPC and MARS retrievals are very slow
      - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link] 
   - Workflow in GitHub (pull requests, user forks, ...)  
-     - github action to submit jobs from github to HPCs - __Roel__
+     - Prototype for github action to submit experiments from github - __Roel__
+     > Done. [example](https://github.com/roelstappers/Harmonie/runs/2384218969?check_suite_focus=true#step:2:7) of experiment started from github.
   - Documentation
 - CY46:
   - Status
