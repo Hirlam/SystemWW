@@ -29,10 +29,16 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
      >If you wish to produce GRIB2 files and not FA files directly out of Fullpos for backend post-processing, then you must be aware or the keys LEXTERN, CMODEL, NIDCEN and NFPGRIB, and then these mods and library are important. This is what we do in Meteo-France for operations since cycle 43t2.
 For historical or coupling files it will become important for large resolutions or dimensions that GRIB1 can't support (but I don't know the limits). In Météo-France we shall use this GRIB2 encoding in LAM historical and coupling FA files in cycle 46t1 to be ready for the future, though it is not yet necessary for our operational resolutions. - __Ulf__
      - ECMWF HPC and MARS retrievals are very slow
-     - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories' ([link] 
+     - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories'[issue](https://github.com/Hirlam/Harmonie/issues/17)__Closed__
   - Workflow in GitHub (pull requests, user forks, ...)  
      - Prototype for github action to submit experiments from github - __Roel__
-     > Done. [example](https://github.com/roelstappers/Harmonie/runs/2384218969?check_suite_focus=true#step:2:7) of experiment started from github.
+     > Done. [example](https://github.com/roelstappers/Harmonie/runs/2384218969?check_suite_focus=true#step:2:7) of experiment started from github.  
+  - harmonie_43h2.2.target.1 branch created in dsantosm fork for new settings. Info about the settings [here](https://hirlam.org/trac/wiki/Harmonie_43h2/Potential_updates_for_tagging_43h2.2)
+    - surfex_namelists.pm: CSEA_FLUX => '"ECUME6" 
+    - NLWLIQOPT to 3: Nielsen (SW), Nielsen (LW) - Some fix is still needed __Kristian__ will send a pullrequest
+    - setting the CCN to 50 per cm3 src/arpifs/phys_dmn/suparar.F90:RFRMIN(26)=50E6
+    - LICERAD=TRUE src/arpifs/phys_dmn/suparar.F90:LICERAD=.TRUE.
+    - LTOTPREC => '.TRUE.', LMIXUV => '.FALSE.'
   - Documentation
 - CY46:
   - Status
@@ -71,6 +77,13 @@ For historical or coupling files it will become important for large resolutions 
     - Example from cyclones- __Daniel__ 
 - ECMWF teleport connection and ecFlow_ui
    - Some instructions added to the wiki: [https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/ECMWF_teleport](https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/ECMWF_teleport)
+
+-DAVAï __Alexadre__
+   - First setup of the portable version at ECMWF cca in summer 2021
+   - VORTEX works in TEMS so Davai can be portable therer also.
+   - Davai Tranning should be arranged
+   - Implementation of Harmonie-CMC and maybe makeup/gmake as building tool could be the first tasks for us 
+   - Help on porting and testing offered to Alexandre __Niko__
 - ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
