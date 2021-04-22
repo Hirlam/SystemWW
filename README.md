@@ -32,7 +32,9 @@ For historical or coupling files it will become important for large resolutions 
      - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories'[issue](https://github.com/Hirlam/Harmonie/issues/17)__Closed__
   - Workflow in GitHub (pull requests, user forks, ...)  
      - Prototype for github action to submit experiments from github - __Roel__
-     > Done. [example](https://github.com/roelstappers/Harmonie/runs/2384218969?check_suite_focus=true#step:2:7) of experiment started from github.  
+     > Done. [example](https://github.com/roelstappers/Harmonie/runs/2384218969?check_suite_focus=true#step:2:7) of experiment started from github. 
+     - Prototype for github actions to extract information from log files - __Roel__ 
+     > Done. [grepcost example](https://github.com/roelstappers/HarmonieExperiments/runs/2407700546?check_suite_focus=true#step:3:9). made by [github action](https://github.com/Hirlam/HarmonieExperiments/blob/main/.github/workflows/grepcost.yml)
   - harmonie_43h2.2.target.1 branch created in dsantosm fork for new settings. Info about the settings [here](https://hirlam.org/trac/wiki/Harmonie_43h2/Potential_updates_for_tagging_43h2.2)
     - surfex_namelists.pm: CSEA_FLUX => '"ECUME6" 
     - NLWLIQOPT to 3: Nielsen (SW), Nielsen (LW) - Some fix is still needed __Kristian__ will send a pullrequest
