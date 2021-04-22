@@ -22,6 +22,16 @@ Ole Vignes        | MET Norway | Monday - Friday  | Oslo
 
 To discuss: An alternative to adding the progress below would be to create an issue for each task (in this SystemWW repo not the Harmonie repo) and keep track of the progress there in the comments (and close the issue when the task is finished)
 
+
+###  Priorities 2021 
+
+   1. Davaii and mitrailllette for Harmonie if is possible outside MF __PENDING__
+   2. Bundling tool - __PENDING__
+   3. Common work space (gitlab, docs ...) __ON GOING__
+   4. Cross families working weeks- __ON GOING__ ???
+   5. Subhourly cycling based in perl or rewrite in python (resources ???)- '''Implementation in cy46''' __ON GOING__
+
+
 ### CY43
   - Testing for tagging 43h2.2
      - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel__
@@ -51,12 +61,16 @@ For historical or coupling files it will become important for large resolutions 
      - Default setup works ( technically ). Tested 2021040100-2021040118.
      - Testbed outcome so far. Works:AROME,AROME_PYSURFEX_OI,AROME_3DVAR, Failing:AROME_3DVAR_SEKF,AROME_BD_ARO
     - Fix the message sending from testbed and a establish a contingency testbed with less computational demands to use in case of slow performance on CCA
-    - Tag beta version when the testbed give us the right signal that everything is ok - __Daniel__
-    - Canari: Upper air fields are corrupted. Work around with the MF implementation. Olda confirmed they use only surface fields - __Trygve & Patrick__
-  - Fixing and closing Cycle 46 tickets open on hirlam.org
-    - __Toon__
-  - Pysurfex validation
-    - Invite Trygve to check the status
+  - Tag beta version when the testbed give us the right signal that everything is ok - __Daniel__
+  - Canari: Upper air fields are corrupted. Work around with the MF implementation. Olda confirmed they use only surface fields - __Trygve & Patrick__
+  - Accelerate CY46 transition:
+      - Reproducibility study with the same settings than 43h2.2 
+      - 4DVar latest merges should be fixed 
+  - Fixing and closing Cycle 46 tickets open on hirlam.org- __Toon__
+  - Pysurfex status
+    - Invite Trygve to check the status [Presentation](https://docs.google.com/presentation/d/1s1niM291Je-pnsoFDB7SqGpyWyQxQA-G-krp0eRu-_0)
+       - Pysurfex lives in https://github.com/metno/pysurfex
+       - Documentation in https://metno.github.io/pysurfex/
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS 
     - Adapt CMake to be able to build OOPS binaries - __Yurii & Roel__
   - Sub-hourly cycling and scripting design
@@ -92,23 +106,22 @@ For historical or coupling files it will become important for large resolutions 
    - Davai Tranning should be arranged
    - Implementation of Harmonie-CMC and maybe makeup/gmake as building tool could be the first tasks for us 
    - Help on porting and testing offered to Alexandre __Niko__
-
-
 ### ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
   - Bundle
   - Workflow, docs, training.  
-- Revisit status of system priorities for 2021
-- AOB
+  - 
+### Hirlam.org
+  - DMI movement planed mid 2022 but Storage change is planed end 2021
+  - Ask about mailing list support at DMI mail services - __Daniel__  - __Done__
+  - Ask about OS update urgency - __Daniel__  - __Done__
+### Document dependencies of external software
+  - https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/Redhat7Install might be a useful starting point - definitely out of date
+  - ECFBUNDL for that
+  - Docker from Jacob could be usefull 
+  - Problems with Intel compiler in cy46 should be documented.
 
-##  Priorities 2021 
-
-   1. Davaii and mitrailllette for Harmonie if is possible outside MF 
-   2. Bundling tool 
-   3. Common work space (gitlab, docs ...)
-   4. Cross families working weeks
-   5. Subhourly cycling based in perl or rewrite in python (resources ???)- '''Implementation in cy46'''
 
 ##  General questions 
 
