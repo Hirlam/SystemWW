@@ -116,7 +116,8 @@ For historical or coupling files it will become important for large resolutions 
   - DMI movement planed mid 2022 but Storage change is planed end 2021
   - Ask about mailing list support at DMI mail services - __Daniel__  - __Done__
   - Ask about OS update urgency - __Daniel__  - __Done__
-### Document dependencies of external software
+  
+### Document dependencies of external software
   - https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/Redhat7Install might be a useful starting point - definitely out of date
   - ECFBUNDL for that
   - Docker from Jacob could be usefull 
