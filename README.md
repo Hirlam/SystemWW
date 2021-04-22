@@ -18,9 +18,11 @@ Bert van Ulft     | KNMI       | Monday - Friday  | Utrecht
 Ole Vignes        | MET Norway | Monday - Friday  | Oslo
 
 
-##  Agenda 
+##  Agenda, Meeting notes and tasks progress 
 
-- CY43:
+To discuss: An alternative to adding the progress below would be to create an issue for each task (in this SystemWW repo not the Harmonie repo) and keep track of the progress there in the comments (and close the issue when the task is finished)
+
+### CY43
   - Testing for tagging 43h2.2
      - New simplified procedure these test [slide]- __Jeanette, Bent, Daniel__
      - MetCoOp has some verification test ICERAD. Create a link in [validation for tagging](https://hirlam.org/trac/wiki/Harmonie_43h2/Validation_for_tagging_43h2.2) - __Ole__
@@ -42,7 +44,8 @@ For historical or coupling files it will become important for large resolutions 
     - LICERAD=TRUE src/arpifs/phys_dmn/suparar.F90:LICERAD=.TRUE.
     - LTOTPREC => '.TRUE.', LMIXUV => '.FALSE.'
   - Documentation
-- CY46:
+  
+### CY46
   - Status
     - Testbed is broken. Test on default setup is ongoing. __Ulf__
      - Default setup works ( technically ). Tested 2021040100-2021040118.
@@ -66,14 +69,15 @@ For historical or coupling files it will become important for large resolutions 
     - Create and submit.tems to avoid placement problems reutilizing the ecgb-cca one.
     - Issue[#2](https://github.com/Hirlam/SystemWW/issues/2)
     - Slack channel #ww2021-tems-installation
-- CY48:
+
+### CY48
   - Status of Pending Branches:
     - Bator: Minor fixes still needed - __Eoin__
     - LOCND2: Test compilation of the branch, as it is,  inside MF and test with Davai. Plan for updating this branch for the new phisycs devs - __Bert, Niko, Alexandre__
     - SPP: Should be introduced in CY48T2 in the 'old way' to reduce the differences between codes. A further outdate will be needed in CY49 pre-phasing or CY49T1 continous integration. In CY49 the ECMWF SPP version will be available. __Ulf__
     - Hybrid: Start again the branch compilation - __Eoin, Daniel__ 
   - Compilation in CCA and TEMS - __Daniel Toon__
-- CLIMATE:
+### CLIMATE:
   - Pre generated climate fields for selected domains:
     - Use testbed or %VAR% to pass ECFLOW variables to scripting  
   - Out of bounds PGD [issue](https://github.com/Hirlam/Harmonie/issues/1)
@@ -82,13 +86,15 @@ For historical or coupling files it will become important for large resolutions 
 - ECMWF teleport connection and ecFlow_ui
    - Some instructions added to the wiki: [https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/ECMWF_teleport](https://hirlam.org/trac/wiki/HarmonieSystemDocumentation/ECMWF_teleport)
 
--DAVAï __Alexadre__
+### DAVAï __Alexadre__
    - First setup of the portable version at ECMWF cca in summer 2021
    - VORTEX works in TEMS so Davai can be portable therer also.
    - Davai Tranning should be arranged
    - Implementation of Harmonie-CMC and maybe makeup/gmake as building tool could be the first tasks for us 
    - Help on porting and testing offered to Alexandre __Niko__
-- ACCORD Convergence actions: 
+
+
+### ACCORD Convergence actions: 
   - Questionaire
   - GIT solution
   - Bundle
@@ -199,15 +205,3 @@ Also see e.g. [this](https://github.com/JuliaLang/julia/pull/40453#issuecomment-
 
 13:30 - ... Work
 
-
-## Meeting notes and tasks progress 
-
-To discuss: An alternative to adding the progress below would be to create an issue for each task (in this SystemWW repo not the Harmonie repo) and keep track of the progress there in the comments (and close the issue when the task is finished)
-
-### CY43
-
-
-
-### CY46
-
-### CY48
