@@ -47,8 +47,8 @@ For historical or coupling files it will become important for large resolutions 
      > Done. [example](https://github.com/roelstappers/Harmonie/blob/feature/githubactions/.github/workflows/run_at_ecmwf.yml). Works technically but needs discussion with ECMWF because of potential security issues. If we want to go for this workflow ask ECMWF to provide a github actions for access to TEMS with HID login? 
      - Prototype for github actions to extract information from log files - __Roel__ 
      > Done. [grepcost example](https://github.com/roelstappers/HarmonieExperiments/runs/2407700546?check_suite_focus=true#step:3:9). made by [github action](https://github.com/Hirlam/HarmonieExperiments/blob/main/.github/workflows/grepcost.yml)
-  - harmonie_43h2.2.target.1 branch created in dsantosm fork for new settings. Info about the settings [here](https://hirlam.org/trac/wiki/Harmonie_43h2/Potential_updates_for_tagging_43h2.2)
-    - Consider splitting configuration (in YAML/TOML/JSON) setting in a seperate repo and use JSON schema for validation and get [GUIs](https://hirlam.github.io/Harmonie.jl/) for free. 
+     - Consider splitting configuration (in YAML/TOML/JSON) setting in a seperate repo and use JSON schema for validation and get [GUIs](https://hirlam.github.io/Harmonie.jl/) for free.
+  - harmonie_43h2.2.target.1 branch created in dsantosm fork for new settings. Info about the settings [here](https://hirlam.org/trac/wiki/Harmonie_43h2/Potential_updates_for_tagging_43h2.2)     
     - surfex_namelists.pm: CSEA_FLUX => '"ECUME6" 
     - NLWLIQOPT to 3: Nielsen (SW), Nielsen (LW) - Some fix is still needed __Kristian__ will send a pullrequest
     - setting the CCN to 50 per cm3 src/arpifs/phys_dmn/suparar.F90:RFRMIN(26)=50E6
