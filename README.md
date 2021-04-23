@@ -44,7 +44,7 @@ For historical or coupling files it will become important for large resolutions 
      - Fix the issue 'harmonie AN runs that would use/dev/shm to create ODB related files and directories'[issue](https://github.com/Hirlam/Harmonie/issues/17)__Closed__
   - Workflow in GitHub (pull requests, user forks, ...)  
      - Prototype for github action to submit experiments from github - __Roel__
-     > Done. [example](https://github.com/roelstappers/Harmonie/runs/2384218969?check_suite_focus=true#step:2:7) of experiment started from github. 
+     > Done. [example](https://github.com/roelstappers/Harmonie/blob/feature/githubactions/.github/workflows/run_at_ecmwf.yml). Works technically but needs discussion with ECMWF because of potential security issues. If we want to go for this workflow ask ECMWF to provide a github actions for access to TEMS with HID login? 
      - Prototype for github actions to extract information from log files - __Roel__ 
      > Done. [grepcost example](https://github.com/roelstappers/HarmonieExperiments/runs/2407700546?check_suite_focus=true#step:3:9). made by [github action](https://github.com/Hirlam/HarmonieExperiments/blob/main/.github/workflows/grepcost.yml)
   - harmonie_43h2.2.target.1 branch created in dsantosm fork for new settings. Info about the settings [here](https://hirlam.org/trac/wiki/Harmonie_43h2/Potential_updates_for_tagging_43h2.2)
@@ -135,35 +135,14 @@ For historical or coupling files it will become important for large resolutions 
 - Clean up of [stale branches](https://github.com/Hirlam/Harmonie/branches/stale)
 - Better to remove the gridpp and titanlib forks?  
 - Add more [labels](https://github.com/Hirlam/Harmonie/issues/labels) (like `Data assimilation`, `IASI`) See [pull request](https://github.com/Hirlam/Harmonie/pulls?q=is%3Apr+is%3Aclosed) so in the future we get overviews of  commits/pull request relevant for specific Harmonie components.  
-<details><summary>Ideas for github actions (click to expand) </summary><p>
-
-Use `workflow_dispatch` events
-
-See the [Example](https://github.com/roelstappers/Harmonie/actions/workflows/run_at_ecmwf.yml) in my fork and click the `run workflow` button which lets you enter `DTG` `DTEND`
-
-The [action](https://github.com/roelstappers/Harmonie/blob/develop/.github/workflows/run_at_ecmwf.yml) will clone the selected branch and run Harmonie.
-The [job](https://github.com/roelstappers/Harmonie/runs/2375694919?check_suite_focus=true) of course fails on my laptop with
-
-```
-/home/roel/actions-runner/_work/Harmonie/Harmonie/config-sh/Harmonie: The following start-up files are missing:
-./Env_submit, ./Env_system, config-sh/hm_rev
-````
-
-A Harmonie user would fork Harmonie, create a branch with changes for his experiment and trigger the `run_at_ecmwf` action to run the experiment at ECMWF.
-
-Note the [self hosted runners](https://github.com/Hirlam/Harmonie/settings/actions/add-new-runner) require GLIBC 2.14 so at ECMWF we have to wait until after the move to bologna. Perhaps someone with access TEMS can give it a try.
-
-Need similar actions to run the testbed at ecmwf (with some option to run only selected configurations), run davaii at MF, run obsmon,epygram, harp
-
-
-Also see e.g. [this](https://github.com/JuliaLang/julia/pull/40453#issuecomment-819200844) where on a pull request that is expected to impact the performance in Julia they simply write in the comment section 
-
-
- ```@nanosoldier runbenchmarks(ALL, vs=":master")```
+ - Ideas for github actions 
+    -  Actions for testbed run (with options to only select subsets), davai, obsmon, harp, epygram 
+    -  Actions to submit jobs to MF HPC 
+    -  Actions that can run from the comment sections. See e.g. [this](https://github.com/JuliaLang/julia/pull/40453#issuecomment-819200844) where on a pull request that is expected to impact the performance in Julia they simply write in the comment section 
+       ```@nanosoldier runbenchmarks(ALL, vs=":master")```
  
- Which runs the full benchmark (several hours) and get a link to report back as a reply
+       Which runs the full benchmark (several hours) and get a link to report back as a reply
 
-</p></details>
 
 
 ### Monday  
