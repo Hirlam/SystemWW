@@ -73,7 +73,7 @@ For historical or coupling files it will become important for large resolutions 
        - Pysurfex lives in https://github.com/metno/pysurfex
        - Documentation in https://metno.github.io/pysurfex/
   - CMake (see [ticket](https://hirlam.org/trac/ticket/188) ) and OOPS 
-    - Adapt CMake to be able to build OOPS binaries - __Yurii & Roel__
+    - Adapt CMake to be able to build OOPS binaries - [Done](https://github.com/roelstappers/Harmonie/tree/feature/CY46_cmakeoops) __Yurii & Roel__
   - Sub-hourly cycling and scripting design
     - Extend the current implemented solution waiting for a more common ACCORD plans
     - Possible naming convection problems for final users should be taken into account - __Eoin__
