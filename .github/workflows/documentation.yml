@@ -1,13 +1,5 @@
 name: Documentation
 
-on:
-  push:
-    paths:
-      - docs/**
-  pull_request:
-    paths:
-      - docs/**
-      
 jobs:
   build:
     if: github.repository == 'Hirlam/SystemWW'    
