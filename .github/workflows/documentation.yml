@@ -10,7 +10,7 @@ on:
       
 jobs:
   build:
-    if: github.repository == 'Hirlam/System'    
+    if: github.repository == 'Hirlam/SystemWW'    
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
