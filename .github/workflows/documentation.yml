@@ -16,4 +16,4 @@ jobs:
       - name: Build and deploy
         env:
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }} # For authentication with SSH deploy key
-        run: julia --project=. docs/make.jl  
+        run: julia --project=. make.jl  
