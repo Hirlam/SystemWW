@@ -1,5 +1,7 @@
 name: Documentation
 
+on: push
+
 jobs:
   build:
     if: github.repository == 'Hirlam/SystemWW'    
