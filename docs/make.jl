@@ -8,7 +8,7 @@ makedocs(
     format = format,
     pages = [
         "Home" => "index.md",
-        "System" => joinpath.("System",  readdir("src/System"))
+        "System" => joinpath.("System",  readdir("docs/src/System"))
     ]
 )
 
