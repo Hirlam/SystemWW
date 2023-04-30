@@ -13,6 +13,8 @@ jobs:
           version: '1'
       - uses: julia-actions/cache@v1
       - uses: julia-actions/julia-buildpkg@v1
+      - name: Install Julia dependencies
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
       - name: Build and deploy 
         run: julia --project=. make.jl  
         env:
