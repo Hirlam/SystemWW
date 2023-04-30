@@ -12,6 +12,8 @@ jobs:
         with:
           version: '1.9.0-rc1'
       - uses: julia-actions/cache@v1
+        with: 
+          cache-compiled: "true"
       - uses: julia-actions/julia-buildpkg@v1
       - name: Install Julia dependencies
         run: julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
