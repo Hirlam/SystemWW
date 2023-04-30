@@ -1,12 +1,9 @@
-name = "SystemWW"
-uuid = "463db003-4b83-4227-99ff-cdbec1f7bf64"
-authors = ["Roel Stappers <roels@met.no>"]
-version = "0.1.0"
-
-
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+GaussianRandomFields = "e4b2fa32-6e09-5554-b718-106ed5adafe9"
 Graphviz_jll = "3c863552-8265-54e4-a6dc-903eb78fde85"
+JSServe = "824d6782-a2ef-11e9-3a09-e5662e0c26f9"
+WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
 [compat]
 Documenter = "0.27"
