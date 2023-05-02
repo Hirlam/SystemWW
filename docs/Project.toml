@@ -1,7 +1,6 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 GaussianRandomFields = "e4b2fa32-6e09-5554-b718-106ed5adafe9"
 Graphviz_jll = "3c863552-8265-54e4-a6dc-903eb78fde85"
 JSServe = "824d6782-a2ef-11e9-3a09-e5662e0c26f9"
