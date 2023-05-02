@@ -1,10 +1,8 @@
 
 # Time dependent SPG 
 
-```@example 2 
-dir = @__DIR__ #hide  
+```julia 
 using GaussianRandomFields, WGLMakie 
-set_theme!(theme_black(), resolution=(800, 600)) #hide
 
 # Domain 
 x = 1:188
@@ -34,4 +32,4 @@ end
 ```
 
 
-![](./spg.mp4)
+![](../assets/spg.mp4)
