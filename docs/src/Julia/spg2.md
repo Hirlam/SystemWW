@@ -1,5 +1,5 @@
 
-# Time dependent SPG 
+# SPG (time correlations) 
 
 ```julia 
 using GaussianRandomFields, WGLMakie 
