@@ -22,6 +22,7 @@ makedocs(
 
 deploydocs( 
     repo = "github.com/Hirlam/SystemWW.git",
+    versions = ["dev", "v1.0.0"],
     push_preview=true
 )
 
