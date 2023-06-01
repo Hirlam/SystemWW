@@ -22,10 +22,11 @@ makedocs(
 
 deploydocs( 
     repo = "github.com/Hirlam/SystemWW.git",
+    devbranch = "main",
+    devurl = "dev", 
     versions = [   # Name in version selector => git tag/branch 
-        "dev" => "dev",
         "43h2.1" => "43h2.1", 
-        "v1" => "v1.0.0"
+        "40h1" => "cy40h1"
     ],
     push_preview=true
 )
