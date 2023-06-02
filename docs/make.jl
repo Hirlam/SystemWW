@@ -25,7 +25,7 @@ deploydocs(
     devbranch = "main",
     devurl = "dev", 
     versions = [   # Name in version selector => git tag/branch
-        "cy46h1.2" => "cy46h1.2",
+        "cy46h1.2" => "46h1.2",
         "43h2.1" => "43h2.1", 
         "40h1" => "cy40h1"
     ],
