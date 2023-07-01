@@ -8,4 +8,5 @@ WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
 [compat]
 Documenter = "0.27"
+GaussianRandomFields = "2"
 WGLMakie = "0.8"
