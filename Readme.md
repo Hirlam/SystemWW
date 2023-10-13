@@ -4,7 +4,7 @@ For upcoming Working weeks create a [wiki](https://github.com/Hirlam/SystemWW/wi
 
 Use `# YYYYMM Location` as the first line in the markdown page. It will be used to create the name in the navigation bar
 
-Notes from previous meetings are [here](https://hirlam.github.io/SystemWW/)
+Notes from previous meetings are [here](https://hirlam.github.io/SystemWW/dev)
 
 
 
